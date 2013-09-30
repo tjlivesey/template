@@ -1,0 +1,9 @@
+div.container
+	=form_tag users_path, class: "session-form" do
+		h2.session-form-heading Sign up
+		fieldset
+			=text_field_tag :email, nil, class: "form-control", placeholder: "email"
+			=password_field_tag :password, nil, class: "form-control", placeholder: "password"
+			=password_field_tag :password_confirmation, nil, class: "form-control", placeholder: "confirm password"
+		=submit_tag "Sign up", class: "btn btn-lg btn-success btn-block"
+			

@@ -1,0 +1,8 @@
+div.container
+	=form_tag login_path, class: "session-form" do
+		/h2.session-form-heading Please login
+		fieldset
+			=text_field_tag :email, nil, class: "form-control", placeholder: "email", autofocus: true
+			=password_field_tag :password, nil, class: "form-control", placeholder: "password"
+		=submit_tag "Log in", class: "btn btn-lg btn-success btn-block"
+		

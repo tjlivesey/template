@@ -1,0 +1,67 @@
+.session-form {
+  max-width: 330px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.session-form .session-form-heading {
+  text-align: center;
+  margin-bottom: 25px
+}
+
+.session-form .checkbox {
+  font-weight: normal;
+}
+.session-form .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.session-form .form-control:focus {
+  z-index: 2;
+}
+
+// .session-form input[type="text"] {
+//   margin-bottom: -1px;
+//   border-bottom-left-radius: 0;
+//   border-bottom-right-radius: 0;
+// }
+// .session-form input[type="password"] {
+//   margin-bottom: 10px;
+//   border-top-left-radius: 0;
+//   border-top-right-radius: 0;
+// }
+
+// .session-form input:first-child {
+//   margin-bottom: -1px;
+//   border-bottom-left-radius: 0;
+//   border-bottom-right-radius: 0;
+// }
+
+.session-form input[type="submit"] {
+  margin-top: 20px;
+}
+
+.session-form fieldset input[type="text"]:first-child, input[type="password"]:first-child {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.session-form fieldset input:not(:first-child):not(:last-child) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.session-form fieldset input[type="text"]:last-child, input[type="password"]:last-child {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
