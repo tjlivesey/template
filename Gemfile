@@ -12,7 +12,6 @@ gem 'jbuilder'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'unicorn'
 gem 'capistrano', group: :development
-gem 'debugger', group: [:development, :test]
 gem "therubyracer"
 gem "less-rails"
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails', :github => 'anjlab/bootstrap-rails'
